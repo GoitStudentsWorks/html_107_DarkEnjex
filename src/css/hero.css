@@ -9,6 +9,42 @@
     line-height: 38px; /* 95% */
     letter-spacing: -0.8px;
 }
+@media (min-width: 768px){
+    .title-h1{
+color: #0C0C0C;
+/* Desktop_tablet/H1_tablet */
+font-family: Gilroy;
+font-size: 70px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 85.714% */
+letter-spacing: -1.4px;
+    }
+}
+@media (min-width: 1280px){
+    .title-h1{
+        color: #0C0C0C;
+
+/* Desktop_tablet/H1 */
+font-family: Gilroy;
+font-size: 72px;
+font-style: normal;
+font-weight: 600;
+line-height: 63px; /* 87.5% */
+letter-spacing: -1.44px;
+    }
+}
+
+@media (min-width: 768px){
+    .container-h1-p{
+        width: 557px;
+    }
+}
+@media (min-width: 1280px){
+    .container-h1-p{
+        width: 597px;
+    }
+}
 .decorait-collection{
     color: #3350E9;
 
@@ -20,16 +56,49 @@
     line-height: 38px;
     letter-spacing: -0.8px;
 }
+@media (min-width: 768px){
+    .decorait-collection{
+        color: #3350E9;
+
+        /* Desktop_tablet/H1_tablet */
+        font-family: Gilroy;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: -1.4px;
+            }
+}
 .subtitle{
     color: rgba(12, 12, 12, 0.70);
 
-/* Mobile/Main text */
-font-family: Gilroy;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px; /* 128.571% */
-letter-spacing: -0.28px;
+    /* Mobile/Main text */
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    margin-top: 20px;
+}
+@media (min-width: 768px){
+    .subtitle{
+        color: rgba(12, 12, 12, 0.70);
+
+/* Desktop_tablet/Main text */
+
+font-size: 16px;
+
+line-height: 20px; /* 125% */
+letter-spacing: -0.32px;
+margin-top: 20px;
+width: 480px;
+    }
+}
+@media (min-width: 1280px){
+.subtitle{
+
+}
 }
 .list-team{
     display: flex;
@@ -46,11 +115,52 @@ letter-spacing: -0.28px;
 display: flex;
 
 }
+@media (min-width: 768px)
+{
+    .conteiner-team{
+        margin-bottom: 180px;
+    }
+}
+@media (min-width: 1280px)
+{
+    .conteiner-team{
+        margin-bottom: 189px;
+    }
+}
 .avatar{
     margin-right: -12px;
     width: 44px;
 height: 44px;
+border-radius: 60px;
+border: 2px solid #FBFBFB;
+/* background: url(<path-to-image>) lightgray 50% / cover no-repeat, #F3F3F3; */
 }
+@media (min-width: 768px){
+   .avatar{
+    /* margin-right: -2px; */
+    margin-right:  -15px;
+    width: 56px;
+    height: 56px;
+   }
+   .avatar img{
+    width: 56px;
+    height: 56px;
+   }
+}
+@media (min-width: 1280px){
+    .avatar{
+     /* margin-right: -2px; */
+     margin-right:  -15px;
+     width: 60px;
+     height: 60px;
+    }
+    .avatar img{
+     width: 60px;
+     height: 60px;
+    }
+ }
+
+
 .link-scrol{
 color: #0C0C0C;
 font-family: Gilroy;
@@ -61,8 +171,22 @@ line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
 text-decoration-line: underline;
 align-content: end;
-
-
+}
+.link-scrol:hover{
+    color: #3350E9;
+}
+@media (min-width: 768px){
+    .link-scrol{
+        color: #0C0C0C;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 100% */
+letter-spacing: -0.4px;
+text-decoration-line: underline;
+justify-content: end;
+    }
 }
 .section-avatar{
 display: flex;
@@ -70,9 +194,39 @@ justify-content:space-between;
 margin-top: 28px;
 margin-bottom: 28px;
 }
+@media (min-width: 768px){
+   .section-avatar{
+    display: block;
+    margin: 0;
+    width: 136px;
+    text-align: end;
+   }
+}
 .image-hero{
-    max-width: 100%;
+    width: 100%;
+    height: 366px;
     border-radius: 30px;
+    overflow: hidden;
 background: linear-gradient(0deg, rgba(12, 12, 12, 0.20) 0%, rgba(12, 12, 12, 0.20) 100%), lightgray -162.223px -2.385px / 197.087% 101.471% no-repeat;
+}
+@media (min-width: 768px){
+    .image-hero{
+        margin-top: 40px;
+    }
+   
+}
 
+.image-hero img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.title-hero{
+    display: block;
+}
+@media (min-width: 768px){
+    .title-hero{
+        display: flex;
+        justify-content: space-between;
+    }
 }
