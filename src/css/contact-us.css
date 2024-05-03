@@ -16,6 +16,25 @@ textarea:placeholder-shown:hover {
     border-color: #3350e6
 }
 
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contact-container {
+        width: calc((100% - 40px) / 2);
+    }
+}
+
 .cont-title {
     padding-bottom: 24px;
 }
@@ -26,6 +45,18 @@ textarea:placeholder-shown:hover {
     padding: 48px 28px;
 }
 
+@media screen and (min-width: 768px) {
+    .modal-contact-form {
+        padding: 50px 122px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .modal-contact-form {
+        padding: 50px 60px;
+    }
+}
+
 .cont-text {
     font-weight: 500;
     font-size: 14px;
@@ -33,10 +64,47 @@ textarea:placeholder-shown:hover {
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     padding-bottom: 28px;
+    max-width: 279px;
+}
+
+@media screen and (min-width: 768px) {
+    .cont-text {
+        max-width: 460px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
 }
 
 
+
 .contact-form {}
+
+.cont-input {
+    width: 100%;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    height: 42px;
+    background-color: transparent;
+    margin-bottom: 18px;
+    font-size: 14px;
+    padding-left: 14px;
+    outline: transparent;
+}
+
+.cont-input:focus,
+.cont-input:hover {
+    border-color: #3350e6;
+}
+
+.cont-form-text {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 136px 54px 14px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.2;
+}
 
 
 .contact-form-btn {}
@@ -44,5 +112,3 @@ textarea:placeholder-shown:hover {
 .contact-img {
     padding-top: 20px;
 }
-
-.cont-img {}
