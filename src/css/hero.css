@@ -131,6 +131,9 @@ display: flex;
     margin-right: -12px;
     width: 44px;
 height: 44px;
+border-radius: 60px;
+border: 2px solid #FBFBFB;
+/* background: url(<path-to-image>) lightgray 50% / cover no-repeat, #F3F3F3; */
 }
 @media (min-width: 768px){
    .avatar{
@@ -168,6 +171,9 @@ line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
 text-decoration-line: underline;
 align-content: end;
+}
+.link-scrol:hover{
+    color: #3350E9;
 }
 @media (min-width: 768px){
     .link-scrol{
