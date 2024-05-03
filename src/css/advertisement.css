@@ -120,6 +120,10 @@ font-size: 48px;
     color: rgba(251, 251, 251, 0.5);
 }
 
+.advert-contact {
+    display: inline-block;
+}
+
 .advert-btn {
     display: flex;
     justify-content: center;
@@ -131,6 +135,11 @@ font-size: 48px;
     background-color: transparent;
     cursor: pointer;
     margin-left: 8px;
+}
+
+.advert-btn:hover,
+.advert-btn:focus {
+    background: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) {
@@ -151,5 +160,13 @@ font-size: 48px;
     font-size: 14px;
     line-height: 1.28571;
     text-align: center;
+    justify-content: center;
     color: #fbfbfb;
+    width: 160px;
+        padding: 15px 43px;
+}
+
+.advert-btn-text:hover,
+.advert-btn-text:focus {
+    color: #0c0c0c;
 }
