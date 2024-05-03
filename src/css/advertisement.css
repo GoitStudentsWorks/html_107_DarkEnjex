@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 335px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -21,6 +22,7 @@
         margin-bottom: 80px;
             margin-left: 32px;
             margin-right: 32px;
+            max-width: 768px;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advtab-1x.jpg);
     }
 }
@@ -37,6 +39,7 @@
         margin-bottom: 100px;
             margin-left: 65px;
             margin-right: 65px;
+            max-width: 1280px;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advdesk-1x.jpg);
     }
 }
@@ -51,15 +54,12 @@
 }
 
 .advert-div {
-    width: 100%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
     .advert-div {
-padding-top: 40px;
+/* padding-top: 40px; */
     padding-bottom: 40px;
     }
 }
@@ -67,6 +67,8 @@ padding-top: 40px;
 @media screen and (min-width: 1280px) {
     .advert-div {
         display: flex;
+        justify-content: center;
+        /* align-items: center; */
         gap: 140px;
 padding: 40px 80px 43px 80px;
     }
@@ -91,6 +93,7 @@ padding: 40px 80px 43px 80px;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
+    margin-top: 30px;
     margin-bottom: 28px;
     margin-left: 8px;
     text-align: left;
@@ -106,6 +109,7 @@ font-size: 48px;
     margin-left: 32px;
     max-width: 576px;
     min-height: 185px;
+    margin-top: 40px;
     }
 }
 
@@ -115,6 +119,7 @@ font-size: 48px;
         max-width: 690px;
             min-height: 132px;
             margin-bottom: 0;
+            margin-top: 0;
     }
 }
 
@@ -130,13 +135,12 @@ font-size: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 160px;
-    height: 48px; */
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
     background-color: transparent;
     cursor: pointer;
     margin-left: 8px;
+    padding: 0;
 }
 
 .advert-btn:hover,
@@ -163,9 +167,11 @@ font-size: 48px;
     line-height: 1.28571;
     text-align: center;
     justify-content: center;
+    flex-wrap: nowrap;
     color: #fbfbfb;
     width: 160px;
-        padding: 15px;
+    height: 48px;
+        padding: 15px 43px 15px 44px;
 }
 
 .advert-btn-text:hover,
