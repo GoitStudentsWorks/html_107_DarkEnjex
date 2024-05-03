@@ -51,8 +51,10 @@
 }
 
 .advert-div {
+    width: 100%;
         padding-top: 30px;
         padding-bottom: 30px;
+        margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -128,8 +130,8 @@ font-size: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px;
-    height: 48px;
+    /* width: 160px;
+    height: 48px; */
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
     background-color: transparent;
@@ -163,7 +165,7 @@ font-size: 48px;
     justify-content: center;
     color: #fbfbfb;
     width: 160px;
-        padding: 15px 43px;
+        padding: 15px;
 }
 
 .advert-btn-text:hover,
