@@ -15,7 +15,11 @@
             <a href="" class="link-scrol">Scroll down</a>
       </div>
       <div class="image-hero">
-        <img src="../img/hero/" srcset="../img/foto-hero-x1.png 1x, ./img/foto-hero-x1.png 2x" width="335" height="366" alt=""/>
-      </div>
+        
+        <picture> 
+          <source media="(max-width:767px)" srcset="../img/hero/hero-mobile-x1.jpg 1x, /img/hero/hero-watch-mob-2x.jpg 2x" alt="foto">
+          <source media="(min-width:768px) and (max-width:1157px)" srcset="./img/hero/hero-watch-tablet.jpg 1x, ./img/hero/hero-watch-tablet-2x.jpg 2x">
+          <source media="(min-width:1158px)" srcset="./img/hero/hero-watch-decktop.jpg 1x, ./img/hero/hero-watch-decktop-2x.jpg 2x">
+        </picture>        
     </div>
     </section>
