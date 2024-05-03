@@ -105,6 +105,7 @@ textarea:placeholder-shown:hover {
     font-size: 14px;
     line-height: 1.2;
     margin-bottom: 28px;
+    outline: transparent;
 }
 
 @media screen and (min-width: 768px) {
@@ -135,6 +136,11 @@ textarea:placeholder-shown:hover {
         width: 160px;
         height: 52px;
     }
+}
+
+.contact-form-btn:hover,
+.contact-form-btn:focus {
+    background: #1f3cd4;
 }
 
 .contact-img {
