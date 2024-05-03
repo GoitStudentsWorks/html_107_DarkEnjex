@@ -1,6 +1,7 @@
 .section {
   /* width: 375px; */
-
+}
+.header-section {
   border-bottom: 1px solid #e7e9fc;
 }
 /* .container {
@@ -19,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   width: 325px;
-  max-height: 34px;
+
   padding: 20px 0;
   margin: 0 auto;
 }
@@ -49,11 +50,13 @@
   display: flex;
   margin: 0;
   padding: 0;
-  background-color: transparent;
-  fill: black;
+  /* background-color: transparent;
+  fill: black; */
   cursor: pointer;
 }
-
+.svg-icons {
+  fill: black;
+}
 /* Mobile Menu */
 
 .mob-menu {
@@ -81,14 +84,17 @@
 }
 .close-btn {
   position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
+  top: 20px;
+  right: 20px;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  background-color: transparent;
   padding: 0;
   border: none;
 }
 .close-btn-svg {
+  fill: #ffffff;
 }
 .menu-navigator {
 }
