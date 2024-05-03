@@ -31,7 +31,7 @@ textarea:placeholder-shown:hover {
 
 @media screen and (min-width: 1280px) {
     .contact-container {
-        width: calc((100% - 40px) / 2);
+        gap: 40px;
     }
 }
 
@@ -111,4 +111,10 @@ textarea:placeholder-shown:hover {
 
 .contact-img {
     padding-top: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+    .contact-img {
+        padding-top: 0;
+    }
 }
