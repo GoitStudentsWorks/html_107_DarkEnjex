@@ -13,7 +13,7 @@ textarea {
 
 textarea:placeholder-shown:focus,
 textarea:placeholder-shown:hover {
-    border-color: #3350e6
+    border-color: #3350e6;
 }
 
 .contact-container {
