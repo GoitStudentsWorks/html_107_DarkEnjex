@@ -1,78 +1,52 @@
-.advert {
-    margin-bottom: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 30px;
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advmob-1x.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 335px;
+.advert-div {
+        border-radius: 30px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advmob-1x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* max-width: 335px; */
+        padding: 60px 28px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
-    .advert {
+    .advert-div {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advmob-2x.jpg);
     }
 }
 
-@media screen and (min-width: 768px) 
-{
-    .advert {
-        margin-bottom: 80px;
-            margin-left: 32px;
-            margin-right: 32px;
-            max-width: 768px;
+@media screen and (min-width: 768px) {
+    .advert-div {
+        padding: 80px 64px;
+        max-width: 768px;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advtab-1x.jpg);
     }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
 (min-resolution: 192dpi) and (min-width: 768px) {
-    .advert {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advtab-2x.jpg);
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .advert {
-        margin-bottom: 100px;
-            margin-left: 65px;
-            margin-right: 65px;
-            max-width: 1280px;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advdesk-1x.jpg);
-    }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
-(min-resolution: 192dpi) and (min-width: 1280px) {
-    .advert {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advdesk-2x.jpg);
-    }
-
-    ;
-}
-
-.advert-div {
-    padding-bottom: 30px;
-}
-
-@media screen and (min-width: 768px) {
     .advert-div {
-/* padding-top: 40px; */
-    padding-bottom: 40px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advtab-2x.jpg);
     }
 }
 
 @media screen and (min-width: 1280px) {
     .advert-div {
         display: flex;
-        justify-content: center;
-        /* align-items: center; */
         gap: 140px;
-padding: 40px 80px 43px 80px;
+        padding: 83px 80px;
+        max-width: 1280px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advdesk-1x.jpg);
     }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+(min-resolution: 192dpi) and (min-width: 1280px) {
+    .advert-div {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Advertisement/advdesk-2x.jpg);
+    }
+
+    ;
 }
 
 .visually-hidden {
@@ -94,9 +68,7 @@ padding: 40px 80px 43px 80px;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    margin-top: 30px;
     margin-bottom: 28px;
-    margin-left: 8px;
     text-align: left;
     max-width: 279px;
     min-height: 167px;
@@ -104,23 +76,20 @@ padding: 40px 80px 43px 80px;
 
 @media screen and (min-width: 768px) {
     .advert-text {
-font-size: 48px;
-    line-height: 0.92;
-    margin-bottom: 32px;
-    margin-left: 32px;
-    max-width: 576px;
-    min-height: 185px;
-    margin-top: 40px;
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 32px;
+        max-width: 576px;
+        min-height: 185px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .advert-text{
-        margin-left: 15px;
+    .advert-text {
         max-width: 690px;
-            min-height: 132px;
-            margin-bottom: 0;
-            margin-top: 0;
+        min-height: 132px;
+        margin-bottom: 0;
+        padding-top: 0;
     }
 }
 
@@ -140,7 +109,6 @@ font-size: 48px;
     border-radius: 16px;
     background-color: transparent;
     cursor: pointer;
-    margin-left: 8px;
     padding: 0;
 }
 
@@ -150,13 +118,12 @@ font-size: 48px;
 }
 
 @media screen and (min-width: 768px) {
-    .advert-btn{
-        margin-left: 32px;
+    .advert-btn {
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .advert-btn{
+    .advert-btn {
         margin-left: 0;
         padding: 0;
     }
@@ -172,7 +139,7 @@ font-size: 48px;
     color: #fbfbfb;
     width: 160px;
     height: 48px;
-        padding: 15px 43px 15px 44px;
+    padding: 15px 43px 15px 44px;
 }
 
 .advert-btn-text:hover,
