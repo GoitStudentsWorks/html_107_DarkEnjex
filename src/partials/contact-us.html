@@ -1,4 +1,53 @@
 <section class="section">
     <div class="container">
+        <h2 class="title cont-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="modal-contact-form">
+                <p class="cont-text">Please use the form below to contact us. Enter your name, email, phone, and message
+                    and
+                    we'll get back to
+                    you shortly.</p>
+                <form class="contact-form">
+                    <div>
+                        <label for="name"></label>
+                        <div>
+                            <input class="cont-input" type="text" name="name" placeholder="Name" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <div>
+                            <input class="cont-input" type="email" name="email" placeholder="Email" required pattern
+                                email="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="phone"></label>
+                        <div>
+                            <input class="cont-input" type="tel" name="phone" placeholder="+380" required pattern
+                                phone="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="comment"></label>
+                        <textarea name="comment" id="comment" class="cont-form-text" placeholder="Comment"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="contact-form-btn">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-img">
+                <picture>
+                    <source srcset="../img/contact-us/cont-us-dec-2x.jpg 2x, ../img/contact-us/cont-us-dec.jpg 1x"
+                        media="(min-width: 1280px)">
+                    <source srcset="../img/contact-us/cont-us-tab-2x.jpg 2x, ../img/contact-us/cont-us-tab.jpg 1x"
+                        media="(min-width: 768px)">
+                    <img class="cont-img" src="./img/contact-us/cont-us-mob.jpg"
+                        srcset="../img/contact-us/cont-us-mob-2x.jpg 2x, ../img/contact-us/cont-us-mob.jpg 1x"
+                        alt="watches on stone">
+                </picture>
+            </div>
+        </div>
     </div>
 </section>
