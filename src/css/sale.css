@@ -158,6 +158,11 @@ span {
     }
 }
 /*--------------------small-watch-----------------------------------------------------------------------*/
+
+.small-watch-li img{
+    width: 52px;
+    height: 54px;
+}
 .small-watch-ul {
     display: flex;
     align-items: center;
@@ -224,7 +229,10 @@ span {
     justify-content: center;
 }
 
-
+.big-watch-div img {
+    width: 235px;
+    height: 285px;
+}
 
 
 @media screen and (min-width: 768px) {
