@@ -39,6 +39,12 @@ textarea:placeholder-shown:hover {
     padding-bottom: 24px;
 }
 
+@media screen and (min-width: 768px) {
+    .cont-title {
+        padding-bottom: 40px;
+    }
+}
+
 .modal-contact-form {
     background-color: #f3f3f3;
     border-radius: 30px;
