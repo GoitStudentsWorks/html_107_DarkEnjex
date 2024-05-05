@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: "Gilroy", sans-serif;
 
 }
@@ -42,7 +42,7 @@ h6 {
 
 span {
     margin: 0;
-}
+}*/
 
 /*----------------------------------------------------------------------------------------------*/
 
@@ -58,9 +58,9 @@ span {
     }
 }*/
 
-iv {
+/*iv {
     border: 1px solid black;
-}
+}*/
 
 
 
@@ -113,25 +113,25 @@ iv {
 }
 
 .sale-htwo {
-    font-weight: 600;
+    /*font-weight: 600;
     font-size: 48px;
     line-height: 0.91667;
     letter-spacing: -0.02em;
-    color: #0c0c0c;
-    /*margin-bottom: 40px;*/
+    color: #0c0c0c;*/
+    margin-bottom: 24px;
 
 }
 
 
 
-.sale-htwo-div {
+/*.sale-htwo-div {
     max-width: 375px;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
     .sale-htwo {
-        /*margin-left: 65px;*/
+        /*margin-left: 65px;
     }
 }
 
@@ -151,7 +151,7 @@ iv {
     }
 
 }
-
+*/
 /*--------------------small-watch-----------------------------------------------------------------------*/
 .small-watch-ul {
     display: flex;
