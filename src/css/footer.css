@@ -1,26 +1,31 @@
-.container{
-    max-width: 335px;
+.container {
+    /* max-width: 335px;
 padding: 40px 28px 28px 28px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 60px;
   border-radius: 30px;
-background-color: #0C0C0C;
- }
+background-color: #0C0C0C; */
+}
+
+
+.footer-container {
+    max-width: 335px;
+    border-radius: 30px;
+    padding: 40px 40px 28px 40px;
+    background-color: #0C0C0C;
+}
 
 
 
 
-
-
-
-.title-footer{
-font-weight: 500;
-font-size: 16px;
-letter-spacing: -0.02em;
-/* margin-left: 28px; */
-margin-bottom: 20px;
-color:#FBFBFB ;
+.title-footer {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    /* margin-left: 28px; */
+    margin-bottom: 20px;
+    color: #FBFBFB;
 }
 
 
@@ -29,6 +34,7 @@ color:#FBFBFB ;
     display: flex;
     gap: 10px;
 }
+
 .link-item-footer {
     width: 34px;
     height: 34px;
@@ -39,317 +45,342 @@ color:#FBFBFB ;
     align-items: center;
     justify-content: center;
 }
-.link-svg-icon{
-fill: transparent;
-stroke:transparent;
-}
-.footer-button{
-display: inline-block;
-margin-top: 20px;
-height: 44px;
-background-color: transparent;
-border: 1px solid rgba(251, 251, 251, 0.2);
-border-radius: 16px;
-font-weight: 500;
-font-size: 12px;
-line-height: 133%;
-text-transform: uppercase;
-text-align: center;
-padding: 14px 20px;
-color: #FBFBFB;
+
+.link-svg-icon {
+    fill: #fbfbfb;
+    /* stroke: transparent; */
 }
 
-.info-footer{
-margin-top: 40px;
-font-weight: 600;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: -0.02em;
-text-align: center;
-color: #FBFBFB;
-}
-.nav-item{
-display: flex;
-gap: 16px; 
-  font-weight: 500;
-font-size: 12px;
-line-height: 133%;
-
-color: #FBFBFB;
-}
-.nav-item-link{
-text-decoration: none;
-color: #FBFBFB;
+.footer-button {
+    display: inline-block;
+    margin-top: 20px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 20px;
+    color: #FBFBFB;
 }
 
-
-.nav-section{
-margin-top: 92px;
-display: flex;
-justify-content: space-between;
-padding-bottom: 24px;
-border-bottom:  1px solid rgba(251, 251, 251, 0.1);;
-}
-.left-nav{
-display: flex;
-flex-direction: column;
-gap: 8px;
+.info-footer {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FBFBFB;
 }
 
-.right-nav{
-font-weight: 500;
-font-size: 12px;
-line-height: 133%;
-color: #FBFBFB;
-max-width: 83px;
+.nav-item {
+    display: flex;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+
+    color: #FBFBFB;
 }
 
-.under-polici{
-margin-top: 24px;
-margin-bottom:8px ;
-font-weight: 500;
-font-size: 10px;
-line-height: 140%;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.5); 
-}
-
-.under-polici-next{
-display: flex;
-gap: 20px;
-font-weight: 500;
-font-size: 10px;
-line-height: 140%;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.5);
-}
-.under-polici-next a{
-text-decoration: none;
-color: rgba(251, 251, 251, 0.5);
-}
-
-@media screen and (min-width: 768px) and (max-width: 1279px)
-{
-
-   .container{
-      width: 704px;
-       /* margin-left: 16px;
-       margin-right: 16px;  */
-       margin-left: auto;
-       margin-right: auto; 
-       align-items: center;
-   }
-   .footer-container{
-   border-radius: 30px;
-   padding: 40px 40px 28px 40px;
-   /* width: 704px; */
-    /* height: 540px;  */
-   position: relative;
-}
-
-   .title-footer{
-       font-size: 20px;
-   }
-
-   
-.title-footer{
-margin-bottom: 20px;
-
-}
-.footer-button{
-position: absolute;
-top: 40px;
-right: 40px;
-margin: 0;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-text-transform: uppercase;
-text-align: center;
-}
-.info-footer{
-max-width: 524px;
-margin-left: auto;
-margin-right: auto;
-font-family: 'InterTight';
-font-weight: 600;
-font-size: 28px;
-line-height: 114%;
-letter-spacing: -0.02em;
-text-align: center;
-}
-
-.nav-section{
-padding-bottom: 28px;
-
-}
-.nav-item{
-font-weight: 500;
-font-size: 14px;
-line-height: 129%
-}
-.link-item-footer{
-border: 1px solid rgba(251, 251, 251, 0.1);
-border-radius: 10px;
-padding: 8px;
-width: 36px;
-height: 36px;
-}
-.right-nav{
-
-max-width: 162px;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-}
-
-.left-nav{
-flex-direction: row;
-gap: 19px;
-
+.nav-item-link {
+    text-decoration: none;
+    color: #FBFBFB;
 }
 
 
-.under-polici{
-font-family: 'InterTight';
-margin-top: 0;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.02em;
-text-align: right;
-color: rgba(251, 251, 251, 0.5);
-margin-bottom: 0;
-}
-.under-polici-next{
-font-family: 'InterTight';
-margin-bottom: 0;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.02em;
-text-align: right;
-color: rgba(251, 251, 251, 0.5);}
-
-.polici-container{
-display: flex;
-justify-content: space-between;
-margin-top:28px ;
+.nav-section {
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+    ;
 }
 
-}  
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
+.right-nav {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+    max-width: 83px;
+}
 
+.under-polici {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
 
+.under-polici-next {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
 
+.under-polici-next a {
+    text-decoration: none;
+    color: rgba(251, 251, 251, 0.5);
+}
 
+@media screen and (min-width: 768px) and (max-width: 1279px) {
 
-@media screen and (min-width:  1280px)
-{
-.container{
-width: 1216px;
-         
+    /* .container {
+        width: 704px;
+        margin-left: 16px;
+       margin-right: 16px; 
         margin-left: auto;
-margin-right: auto; 
+        margin-right: auto;
         align-items: center;
+    } */
+
+    .footer-container {
+        border-radius: 30px;
+        /* padding: 40px 40px 28px 40px; */
+        width: 704px;
+        /* width: 704px; */
+        /* height: 540px;  */
+        position: relative;
     }
 
-    .footer-container{
-       border-radius: 30px;
-       padding: 40px 40px 28px 40px;
-       
-    
-       position: relative;}
+    .title-footer {
+        font-size: 20px;
+    }
 
 
-.contact-footer-container{
-position: absolute;
+    .title-footer {
+        margin-bottom: 20px;
+
+    }
+
+    .footer-button {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        margin: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .info-footer {
+        max-width: 524px;
+        margin-left: auto;
+        margin-right: auto;
+        /* font-family: 'InterTight'; */
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+
+    .nav-section {
+        padding-bottom: 28px;
+
+    }
+
+    .nav-item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%
+    }
+
+    .link-item-footer {
+        border: 1px solid rgba(251, 251, 251, 0.1);
+        border-radius: 10px;
+        padding: 8px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .right-nav {
+
+        max-width: 162px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+    }
+
+    .left-nav {
+        flex-direction: row;
+        gap: 19px;
+
+    }
+
+
+    .under-polici {
+        /* font-family: 'InterTight'; */
+        margin-top: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: right;
+        color: rgba(251, 251, 251, 0.5);
+        margin-bottom: 0;
+    }
+
+    .under-polici-next {
+        /* font-family: 'InterTight'; */
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: right;
+        color: rgba(251, 251, 251, 0.5);
+    }
+
+    .polici-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 28px;
+    }
+
 }
-.title-footer{
-   margin-bottom: 20px;
-   font-weight: 500;
-font-size: 20px;
-letter-spacing: -0.02em;
-}
-.footer-button{
-   position: absolute;
-   top: 40px;
-   right: 40px;
-   margin: 0;
-}
-.info-footer{
-   max-width: 523px;
-   margin-left: auto;
-   margin-right: auto;
-   font-family: 'InterTight';
-   font-weight: 600;
-font-size: 28px;
-line-height: 114%;
-letter-spacing: -0.02em;
-text-align: center;
-   margin-top: 0;
-}
 
 
-   
 
-       /* .polici-container{
+
+
+
+@media screen and (min-width: 1280px) {
+    /* .container {
+        width: 1216px;
+
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    } */
+
+    .footer-container {
+        border-radius: 30px;
+        padding: 40px 40px 28px 40px;
+        width: 1216px;
+
+        position: relative;
+    }
+
+
+    .contact-footer-container {
+        position: absolute;
+    }
+
+    .title-footer {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: -0.02em;
+    }
+
+    .footer-button {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        margin: 0;
+    }
+
+    .info-footer {
+        max-width: 523px;
+        margin-left: auto;
+        margin-right: auto;
+        /* font-family: 'InterTight'; */
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-top: 0;
+    }
+
+
+
+
+    /* .polici-container{
        justify-content: space-between;} */
-.footer-button{
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-text-transform: uppercase;
-text-align: center;
-}
-.nav-section{
-padding-bottom: 28px;
+    .footer-button {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-transform: uppercase;
+        text-align: center;
+    }
 
-}
-       .left-nav{
-           flex-direction: row;
-           gap: 40px;
-          
-       }
-       .nav-item{
-           display: flex;
-           gap: 40px;
-           font-weight: 500;
-font-size: 14px;
-line-height: 129%
-       }
-       .right-nav{
-           max-width: 169px;
-           font-weight: 500;
-font-size: 14px;
-line-height: 129%
-       }
-       .link-item-footer{
-           border: 1px solid rgba(251, 251, 251, 0.1);
-border-radius: 10px;
-padding: 8px;
-width: 36px;
-height: 36px;
-       }
-       .polici-container{
-           display: flex;
-           justify-content: space-between;
-           margin-top: 28px;
-       }
-.under-polici{
-margin: 0;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.5)
+    .nav-section {
+        padding-bottom: 28px;
 
-}
-.under-polici-next{
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.5)
-}
+    }
+
+    .left-nav {
+        flex-direction: row;
+        gap: 40px;
+
+    }
+
+    .nav-item {
+        display: flex;
+        gap: 40px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%
+    }
+
+    .right-nav {
+        max-width: 169px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%
+    }
+
+    .link-item-footer {
+        border: 1px solid rgba(251, 251, 251, 0.1);
+        border-radius: 10px;
+        padding: 8px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .polici-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 28px;
+    }
+
+    .under-polici {
+        margin: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5)
+    }
+
+    .under-polici-next {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5)
+    }
 }
