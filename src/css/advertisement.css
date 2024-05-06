@@ -98,51 +98,29 @@
 }
 
 .advert-contact {
+
     display: inline-block;
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 15px 43px 15px 44px;
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 1.29;
+            color: #fbfbfb;
+            text-wrap: nowrap;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advert-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgba(251, 251, 251, 0.15);
-    border-radius: 16px;
-    background-color: transparent;
-    cursor: pointer;
-    padding: 0;
-}
-
-.advert-btn:hover,
-.advert-btn:focus {
-    background: #fbfbfb;
-}
-
-@media screen and (min-width: 768px) {
-    .advert-btn {
-    }
+.advert-contact:hover,
+.advert-contact:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
 }
 
 @media screen and (min-width: 1280px) {
-    .advert-btn {
-        margin-left: 0;
-        padding: 0;
+    .advert-contact {
+        height: 48px;
     }
-}
-
-.advert-btn-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    color: #fbfbfb;
-    width: 160px;
-    height: 48px;
-    padding: 15px 43px 15px 44px;
-}
-
-.advert-btn-text:hover,
-.advert-btn-text:focus {
-    color: #0c0c0c;
 }
