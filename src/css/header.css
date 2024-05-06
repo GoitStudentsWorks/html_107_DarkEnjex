@@ -53,6 +53,11 @@
 .header-sm-list-ref {
 }
 
+.menu-sm-list-ref:hover svg use,
+.menu-sm-list-ref:focus svg use {
+  fill: #3350e9;
+}
+
 .menu-span {
   color: #fbfbfb;
 }
@@ -355,5 +360,9 @@
     padding: 8px;
     width: 36px;
     height: 36px;
+  }
+  .header-sm-list-ref:hover svg use,
+  .header-sm-list-ref:focus svg use {
+    fill: #3350e9;
   }
 }
