@@ -13,8 +13,6 @@
 .user-wrap {
   border-radius: 30px;
   padding: 32px 36px;
-  max-width: 335px;
-  height: 262px;
   background-color: #f3f3f3;
   display: flex;
   flex-direction: column;
@@ -74,7 +72,6 @@
 
   .user-wrap {
     width: 344px;
-    height: 272px;
   }
 
   .user-title {
