@@ -125,6 +125,7 @@ display: flex;
 {
     .conteiner-team{
         margin-bottom: 189px;
+        
     }
 }
 .avatar{
@@ -202,6 +203,12 @@ margin-bottom: 28px;
     text-align: end;
    }
 }
+@media (min-width: 1280px){
+    .section-avatar{
+        width: 146px;
+    }
+}
+
 .image-hero{
     width: 100%;
     height: 366px;
