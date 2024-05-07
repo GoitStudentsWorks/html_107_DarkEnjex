@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+
+
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -161,4 +163,8 @@ textarea {
     font-size: 48px;
     line-height: 0.9;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
