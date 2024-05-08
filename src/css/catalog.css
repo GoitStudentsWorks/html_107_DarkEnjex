@@ -44,7 +44,7 @@
     color: #0c0c0c;
     margin-bottom: 8px;
     overflow: hidden;
-    max-width: 280px;
+    /* max-width: 280px; */
     white-space: nowrap;
     text-overflow: ellipsis;
 }
