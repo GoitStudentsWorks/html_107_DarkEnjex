@@ -95,6 +95,7 @@ textarea:placeholder-shown:hover {
     font-size: 14px;
     padding-left: 14px;
     outline: transparent;
+    height: 52px;
 }
 
 .cont-input:focus,

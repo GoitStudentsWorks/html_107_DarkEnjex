@@ -27,7 +27,7 @@ background-color: #0C0C0C; */
     /* margin-left: 28px; */
     margin-bottom: 20px;
     color: #FBFBFB;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-footer:hover,
@@ -50,6 +50,7 @@ background-color: #0C0C0C; */
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -59,9 +60,14 @@ background-color: #0C0C0C; */
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-svg-icon:hover,
+/* .link-svg-icon:hover,
 .link-svg-icon:focus {
     fill: #FFFFFF;
+} */
+
+.link-item-footer:hover .link-svg-icon,
+.link-item-footer:focus .link-svg-icon {
+    fill: #fff;
 }
 
 .footer-button {
@@ -79,7 +85,7 @@ background-color: #0C0C0C; */
     padding: 14px 20px;
     color: #FBFBFB;
     /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-button:hover,
@@ -216,7 +222,7 @@ background-color: #0C0C0C; */
         margin-right: auto;
         align-items: center;
     } */
-    і .footer-container {
+    .footer-container {
         border-radius: 30px;
         /* padding: 40px 40px 28px 40px; */
         /* width: 704px; */
@@ -238,13 +244,17 @@ background-color: #0C0C0C; */
     .footer-button {
         position: absolute;
         top: 40px;
-        right: 40px;
+        /* right: 40px; */
         margin: 0;
         font-weight: 500;
         font-size: 14px;
         line-height: 129%;
         text-transform: uppercase;
         text-align: center;
+
+        right: 32px;
+        height: 48px;
+        padding: 15px;
     }
 
     .info-footer {
@@ -361,8 +371,12 @@ background-color: #0C0C0C; */
     .footer-button {
         position: absolute;
         top: 40px;
-        right: 40px;
+        /* right: 40px; */
         margin: 0;
+
+        right: 65px;
+        height: 48px;
+        padding: 15px;
     }
 
     .info-footer {
