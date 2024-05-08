@@ -36,8 +36,7 @@
   display: none;
 }
 
-.header-list-item {
-}
+.header-list-item {}
 
 .header-list-ref {
   position: relative;
@@ -47,11 +46,9 @@
   display: none;
 }
 
-.header-sm-list-item {
-}
+.header-sm-list-item {}
 
-.header-sm-list-ref {
-}
+.header-sm-list-ref {}
 
 .menu-sm-list-ref:hover svg use,
 .menu-sm-list-ref:focus svg use {
@@ -177,8 +174,7 @@
   height: 34px;
 }
 
-.menu-sm-list-item {
-}
+.menu-sm-list-item {}
 
 .mob-menu .menu-list-item .menu-list-ref {
   position: relative;
@@ -237,10 +233,12 @@
   .mob-menu {
     width: 330px;
     height: 100%;
-    padding-top: 310px;
+
+    padding: 310px 101px 50px 101px;
+    /* padding-top: 310px;
     padding-bottom: 50px;
     padding-left: 128px;
-    padding-right: 129px;
+    padding-right: 129px; */
 
     background-image: url('../img/header/bg-menu-tab-min.jpg');
     background-size: cover;
@@ -259,6 +257,11 @@
     gap: 32px;
   }
 
+  .menu-sm-list-ref {
+    width: 36px;
+    height: 36px;
+  }
+
   .menu-sm-list {
     padding-top: 350px;
   }
@@ -268,10 +271,7 @@
     height: 20px;
   }
 
-  .close-btn {
-    padding-top: 26px;
-    padding-right: 32px;
-  }
+
 
   .close-btn-svg {
     width: 40px;
@@ -295,7 +295,6 @@
 
   .navigator {
     display: flex;
-    gap: 203px;
   }
 
   .header-list {
@@ -314,6 +313,7 @@
     text-align: center;
     color: #0c0c0c;
   }
+
   .header-list-ref {
     white-space: nowrap;
     position: relative;
@@ -354,13 +354,15 @@
     gap: 10px;
   }
 
-  .header-sm-list-item {
-    border: 1px solid rgba(12, 12, 12, 0.1);
+  .header-sm-list-ref {
+    border: 1px solid rgba(12, 12, 12, .1);
     border-radius: 10px;
     padding: 8px;
     width: 36px;
     height: 36px;
+    display: block;
   }
+
   .header-sm-list-ref:hover svg use,
   .header-sm-list-ref:focus svg use {
     fill: #3350e9;
